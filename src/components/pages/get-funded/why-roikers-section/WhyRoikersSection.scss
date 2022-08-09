@@ -1,0 +1,30 @@
+div#why-roikers{
+  background: #3BC5E0;
+  h2{
+    color: white;
+    span{
+      font-weight: lighter;
+    }
+  }
+  .bg-white1{
+    margin: 0 !important;
+    box-sizing: border-box;
+    width: 100% !important;
+    height: 400px !important;
+    border-radius: 10px;
+    background: white;
+    img{
+      width: 130px;
+      height: 130px;
+    }
+    p{
+      font-size: 18px;
+      width: 90%;
+      margin-left: 5%;
+    }
+  }
+  .row{
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

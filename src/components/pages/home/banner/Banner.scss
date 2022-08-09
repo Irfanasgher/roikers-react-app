@@ -1,0 +1,33 @@
+.App-header {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url('/main12.jpg');
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: white;
+
+	p {
+		//font-size: 3vw;
+		font-size: 40px;
+		font-weight: lighter;
+		margin-top: 80px !important;
+		margin-block-start: 0;
+		margin-block-end: 0;
+		margin-inline-start: 0px;
+		margin-inline-end: 0px;
+	}
+	h2 {
+		//font-size: 3vw;
+		font-size: 40px;
+	}
+}
+@media (max-width: 768px) {
+	.row {
+		margin-right: auto;
+		margin-left: auto;
+	}
+}

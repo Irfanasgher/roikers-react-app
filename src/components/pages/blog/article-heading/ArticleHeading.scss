@@ -1,0 +1,26 @@
+div#forces{
+  h2{
+    color: #222e34;
+  }
+  .col-md-6{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  i{
+    color: #3bc5e0;
+    font-size: 25px;
+  }
+  p{
+    color: gray;
+    margin-left: 10px;
+  }
+}
+@media (max-width: 815px){
+  div#forces{
+    h2{
+      font-size: 20px !important;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+  }
+}

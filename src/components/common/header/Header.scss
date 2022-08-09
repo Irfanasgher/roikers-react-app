@@ -1,0 +1,69 @@
+div#information {
+	.information {
+		background-image: url('/info-roikers.jpg');
+		background-position: center;
+		background-size: cover;
+		min-height: 90vh;
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		color: white;
+	}
+	.change-image{
+		background-image: url('/tariforio.jpg') !important;
+		background-position: center;
+		background-size: cover;
+	}
+	.change-image1{
+		background-image: url('/GettyImages-962687322.jpg') !important;
+		background-position: center;
+		background-size: cover;
+	}
+	.change-image2{
+		background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url('/GettyImages-1145343346.jpg') !important;
+		background-position: center;
+		background-size: cover !important;
+	}
+	.change-image3{
+		 background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url('/GettyImages-498323251.png') !important;
+		 background-position: center;
+		 background-size: cover !important;
+	 }
+	.change-image4{
+		 background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url('/Capa 8 copia 2.png') !important;
+		 background-position: center;
+		 background-size: cover !important;
+	 }
+	.change-image5{
+		background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url('/GettyImages-165667384.png') !important;
+		background-position: center;
+		background-size: cover !important;
+	}
+
+	.change-position-of-text{
+		h1 {
+			text-align: left;
+			margin-top: 360px;
+			margin-left: -600px;
+		}
+	}
+	h1 {
+		text-align: left;
+		margin-top: 230px;
+		margin-left: -550px;
+	}
+}
+
+@media (max-width: 815px) {
+	.row {
+		margin-right: auto;
+		margin-left: auto;
+	}
+	h1 {
+		font-size: 35px;
+		text-align: center !important;
+		margin-left: 15px !important;
+	}
+}

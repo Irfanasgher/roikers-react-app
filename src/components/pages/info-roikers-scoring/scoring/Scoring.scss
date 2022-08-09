@@ -1,0 +1,48 @@
+div#scoring {
+	padding-bottom: 50px;
+	.scoring {
+		text-align: left;
+		padding-left: 0 !important;
+		h6 {
+			margin-left: 10px;
+			span {
+				margin-left: 40%;
+			}
+		}
+		.optima {
+			//background-color: white;
+			padding: 20px 30px;
+			border-radius: 10px;
+			border: 1px solid gray;
+			h5 {
+				.icon-green {
+					color: #15ec43;
+					font-size: 40px;
+				}
+				span {
+					margin-left: 32%;
+				}
+				span.alta {
+					margin-left: 40%;
+				}
+				span.alta1 {
+					margin-left: 49%;
+				}
+				.icon-gold {
+					color: #fed08e;
+					font-size: 40px;
+				}
+				.icon-gray {
+					color: #dbdbdb;
+					font-size: 40px;
+				}
+			}
+		}
+	}
+}
+@media (max-width: 768px) {
+	.row {
+		margin-right: auto;
+		margin-left: auto;
+	}
+}

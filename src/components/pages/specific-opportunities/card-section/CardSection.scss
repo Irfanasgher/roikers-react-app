@@ -1,0 +1,166 @@
+div#card-panel {
+  margin-top: -150px;
+
+  .makeStyles-card-10 {
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2) !important;
+    transition: all .5s ease-in-out;
+    &:hover {
+      box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4) !important;
+    }
+
+    .MuiCardHeader-root {
+      background-color: rgba(0, 0, 0, 0.4);
+      z-index: 11 !important;
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+    }
+    h5 {
+      text-align: left;
+      color: #222e34 !important;
+      span{
+        font-weight: lighter;
+      }
+    }
+    .para {
+      text-align: left;
+      font-family: roboto;
+      color: #222e34 !important;
+      font-weight: normal;
+      font-size: 12px;
+    }
+    .PrivateValueLabel-circle-68 {
+      width: 70px;
+      height: 24px;
+      display: flex;
+      transform: none;
+      color: black !important;
+      align-items: center;
+      border-radius: 50px;
+      justify-content: center;
+      background-color: white !important;
+      border: 2px solid #54e4ce;
+      margin-top: 10px;
+      margin-left: -30px;
+      &:after {
+        position: absolute;
+        content: "";
+        height: 10px;
+        width: 10px;
+        background: #54e4ce;
+        transform: rotate(45deg);
+        top: 27px;
+        z-index: -1;
+      }
+    }
+    .PrivateValueLabel-label-69 {
+      color: black !important;
+      transform: none;
+    }
+    .MuiSlider-thumb {
+      height: 0;
+      width: 0;
+      box-shadow: none;
+    }
+    .MuiSlider-track {
+      height: 10px;
+      display: block;
+      border-radius: 5px !important;
+      position: absolute;
+      border-radius: 1px;
+      background-color: #54e4ce;
+      margin-top: -1px;
+    }
+    .MuiSlider-rail {
+      width: 100%;
+      height: 8px;
+      display: block;
+      opacity: 1;
+      position: absolute;
+      border-radius: 1px;
+      background-color: #e9ecef;
+      border-radius: 5px;
+    }
+    .MuiSlider-thumb::after {
+      top: -15px;
+      left: -15px;
+      right: -15px;
+      bottom: -15px;
+      content: "";
+      position: absolute;
+      border-radius: 50%;
+      background-color: #54e4ce;
+      display: none;
+    }
+    .investors {
+      color: gray;
+      span {
+        color: #222e34 !important;
+        font-weight: bolder;
+        margin-left: 5px;
+      }
+    }
+    .hrStyling {
+      width: 100%;
+      height: 2px !important;
+      font-size: 23px;
+      margin-block-start: 0;
+      margin-block-end: 0;
+      margin-inline-start: 0;
+      margin-inline-end: 0;
+    }
+    h3{
+      margin: 25px;
+      color: #222e34;
+      span{
+        font-weight: lighter;
+      }
+    }
+    .annual{
+      border: 1px dashed #3bc5e0;
+      padding: 10px;
+      border-radius: 10px;
+    }
+    .estimated {
+      color: #3bc5e0;
+      font-size: 14px;
+      span {
+        font-weight: bold;
+      }
+    }
+    .straight-line{
+      background-color: #3bc5e0;
+      width: 2px;
+      height: 50px;
+    }
+    .invest{
+      color: #222e34;
+      input{
+        outline: none;
+        border: 0;
+        width: 120px;
+        border-bottom: 2px solid #222e34;
+        &::placeholder{
+          color: #222e34;
+        }
+      }
+      span{
+        margin-right: 20px;
+        margin-left: -20px;
+      }
+    }
+  }
+}
+@media (max-width: 815px) {
+  div#card-panel {
+    margin-top: 50px;
+    .row {
+      .col-12 {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

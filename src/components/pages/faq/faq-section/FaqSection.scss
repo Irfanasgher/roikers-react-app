@@ -1,0 +1,22 @@
+div#consultas {
+	h1 {
+		font-weight: lighter;
+		font-size: 30px;
+		text-align: left;
+		margin-left: 224px;
+	}
+}
+@media (max-width: 768px) {
+	div#consultas {
+		.row {
+			margin-right: auto;
+			margin-left: auto;
+		}
+		h1 {
+			font-weight: lighter;
+			font-size: 30px;
+			text-align: left;
+			margin-left: 35px;
+		}
+	}
+}

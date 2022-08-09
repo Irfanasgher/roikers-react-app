@@ -1,0 +1,47 @@
+div#exports-financial{
+    margin-top: 100px !important;
+    .col-md-6{
+      img{
+        max-width: 70% !important;
+        object-fit: cover;
+      }
+      h2{
+        text-align: left;
+        margin-top: 60px;
+        color: #222e34;
+        span{
+          font-weight: lighter;
+        }
+      }
+      p{
+        text-align: left;
+        margin-top: 25px;
+      }
+    }
+
+}
+@media (max-width: 815px) {
+  div#exports-financial{
+    margin-top: 100px !important;
+    .col-md-6{
+      img{
+        max-width: 100% !important;
+        object-fit: cover;
+      }
+      h2{
+        text-align: center;
+        font-size: 25px;
+        margin-top: 100px;
+        span{
+          font-weight: lighter;
+        }
+      }
+      p{
+        text-align: center;
+        font-size: 15px;
+        margin-top: 25px;
+      }
+    }
+
+  }
+}

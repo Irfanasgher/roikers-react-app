@@ -1,0 +1,47 @@
+div#investment{
+  img{
+    width: 100%;
+  }
+  .move-top{
+    margin-top: -50px;
+    p{
+      color: #222e34;
+      margin-right: 25px;
+      margin-top: 20px;
+      font-size: 18px;
+    }
+    .icon {
+      .icon1 {
+        height: 50px;
+        width: 50px;
+        border-radius: 50px;
+        border: 1px solid #3bc5e0;
+        color: #3bc5e0;
+        text-align: center;
+        margin-right: 15px;
+        padding: 15px;
+        font-size: 22px;
+        transition: all .5s ease-in-out;
+        &:hover {
+          background-color: #3bc5e0;
+          color: white;
+          transition: all .5s ease-in-out;
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 815px) {
+  div#investment{
+    .move-left{
+      margin-left: 30%;
+    }
+    .move-top{
+      margin-top: 20px;
+      text-align: center !important;
+      margin-left: 20%;
+    }
+  }
+}

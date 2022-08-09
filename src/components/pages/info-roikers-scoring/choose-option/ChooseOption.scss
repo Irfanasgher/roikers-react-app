@@ -1,0 +1,63 @@
+div#hola-elige{
+  padding: 100px 50px;
+  background-color: #FAFAFA;
+  h1{
+    color: #222e34;
+    span{
+      font-weight: lighter;
+    }
+  }
+  .quiero{
+    height: 96px;
+    background-color: white;
+    padding: 20px 30px;
+    box-shadow: 1px 1px 7px rgba(0,0,0,0.3);
+    border-radius: 8px;
+    text-align: left;
+    border-left: 7px solid #3bc5e0;
+
+
+
+    h3{
+      display: inline;
+      font-size: 20px;
+    }
+    .circle{
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      padding: 10px;
+      border: 1px solid gray;
+    }
+    .icon{
+      color: white;
+    }
+    .circle1{
+      background-color: #3bc5e0;
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      padding: 10px;
+      border: 1px solid #3bc5e0;
+    }
+  }
+
+}
+@media (max-width: 768px) {
+  div#hola-elige{
+    .row{
+      margin-left: auto;
+      margin-right: auto;
+    }
+    h1{
+      font-size: 27px;
+    }
+    .quiero{
+      padding: 10px 15px;
+      height: auto !important;
+    }
+    h3{
+      font-size: 14px !important;
+    }
+  }
+}

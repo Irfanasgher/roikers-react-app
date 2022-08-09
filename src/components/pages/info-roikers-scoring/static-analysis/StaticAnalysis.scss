@@ -1,0 +1,38 @@
+div#analisis{
+  padding-bottom: 50px;
+  //padding-top: 80px;
+  text-align: left;
+  p{
+    span{
+      font-weight: bold;
+    }
+  }
+  ul{
+    list-style: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+
+    li{
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border-bottom: 1px solid gray;
+      &:last-child{
+        border-bottom: 0;
+      }
+    }
+
+    .icon{
+      color: #3bc5e0;
+      margin-right: 20px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .row{
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

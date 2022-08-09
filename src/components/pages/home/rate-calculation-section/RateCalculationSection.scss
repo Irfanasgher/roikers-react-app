@@ -1,0 +1,239 @@
+/*
+camelCase -> variables
+StudlyCase -> classes
+kebab-case -> css classes & id
+*/
+
+div#bestrate {
+	background-image: url('/BestRateBG-01.png');
+	background-position: center;
+	background-size: cover;
+	color: white !important;
+	height: 500px;
+
+	h1 {
+		color: white;
+		text-align: left;
+		font-weight: bolder;
+		&:before {
+			display: flex;
+			content: "";
+			background-color: #fff;
+			margin-bottom: 10px;
+			margin-left: 5px;
+			height: 4px;
+			width: 40px;
+		}
+	}
+	h2 {
+		color: white;
+		text-align: left;
+		font-size: 40px;
+		font-weight: lighter;
+	}
+	.reference {
+		color: white;
+		text-align: left;
+		width: 88%;
+	}
+	.MuiPaper-elevation1 {
+		max-width: 400px;
+		border-radius: 8px;
+		box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2) !important;
+		transition: all .5s ease-in-out;
+		&:hover {
+			box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4) !important;
+		}
+
+		.MuiCardContent-root {
+			padding: 35px;
+		}
+	}
+	.estimated {
+		h3 {
+			font-size: 26px;
+			font-weight: bold;
+			color: #222e34 !important;
+
+			span {
+				font-weight: lighter;
+			}
+		}
+		.amount {
+			color: #3bc5e0;
+			text-align: left;
+			font-size: 11px;
+		}
+		h4 {
+			text-align: left;
+			line-height: 1;
+			font-size: 20px;
+			margin-top: 5px;
+			color: #222e34 !important;
+			input {
+				border-top: 0;
+				border-left: 0;
+				border-right: 0;
+				border-bottom: 1px solid transparent;
+				&::placeholder {
+					color: gray !important;
+					font-weight: lighter;
+				}
+				&:focus {
+					border-bottom: 1px solid gray;
+					outline: none;
+				}
+			}
+		}
+		.progressBar {
+			height: 0px;
+			overflow: visible;
+		}
+		.progress-bar {
+			height: 4px;
+			background-color: #3bc5e0;
+		}
+		.time {
+			text-align: left;
+			font-size: 11px;
+		}
+		#basic-nav-dropdown.nav-link {
+			color: #222e34 !important;
+			text-align: left;
+			font-size: 18px;
+			font-weight: bold;
+			padding: 0;
+			margin-top: 5px;
+		}
+		#basic-nav-dropdown.dropdown-toggle::after {
+			content: '';
+			margin-left: 28px;
+			color: gray;
+		}
+		#basic-nav-dropdown1.nav-link {
+			color: #222e34 !important;
+			text-align: left;
+			font-size: 18px;
+			font-weight: bold;
+			margin-top: 5px;
+			padding: 0;
+		}
+		#basic-nav-dropdown1.dropdown-toggle::after {
+			content: '';
+			margin-left: 90px;
+			color: gray;
+		}
+		.cash {
+			color: #3bc5e0;
+			font-weight: bold;
+		}
+		.cash.digit {
+			font-size: 30px;
+		}
+		.line {
+			background-color: gray;
+			height: 1px;
+			width: 120px;
+			margin-left: 5px;
+			margin-top: 14px;
+		}
+	}
+}
+@media (max-width: 768px) {
+	div#bestrate {
+		background-image: url('/BestRateMobileBG-01.png');
+		background-position: center;
+		background-size: cover;
+		height: auto;
+		text-align: center !important;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		h1 {
+			color: white;
+			text-align: center;
+			font-size: 25px;
+			font-weight: bolder;
+			&:before {
+				display: flex;
+				content: "";
+				background: none;
+				margin-bottom: 10px;
+				margin-left: 5px;
+				height: 4px;
+				width: 40px;
+			}
+		}
+		h2 {
+			color: white;
+			text-align: center;
+			font-size: 25px;
+			font-weight: lighter;
+		}
+		.reference {
+			color: white;
+			text-align: center;
+			width: 88%;
+			margin-bottom: 60px;
+			margin: auto;
+			padding-bottom: 15px;
+		}
+
+		.MuiCardContent-root {
+			padding: 12px !important;
+			margin: 0 !important;
+		}
+		.estimated {
+			.time {
+				text-align: left;
+				font-size: 10px;
+			}
+			#basic-nav-dropdown.nav-link {
+				color: #222e34 !important;
+				text-align: left;
+				font-size: 18px;
+				font-weight: bold;
+				padding: 0;
+				margin-top: 5px;
+			}
+			#basic-nav-dropdown.dropdown-toggle::after {
+				content: '';
+				margin-left: 12px;
+				color: gray;
+			}
+			#basic-nav-dropdown1.nav-link {
+				color: #222e34 !important;
+				text-align: left;
+				font-size: 18px;
+				font-weight: bold;
+				margin-top: 5px;
+				padding: 0;
+			}
+			#basic-nav-dropdown1.dropdown-toggle::after {
+				content: '';
+				margin-left: 62px;
+				color: gray;
+			}
+			.cash {
+				color: #3bc5e0;
+				font-weight: bold;
+			}
+			.cash.digit {
+				font-size: 22px;
+			}
+			.line {
+				background-color: gray;
+				height: 1px;
+				width: 90px;
+				margin-left: 5px;
+				margin-top: 14px;
+			}
+			.line1 {
+				width: 100px;
+			}
+		}
+	}
+	.row {
+		margin-right: auto;
+		margin-left: auto;
+	}
+}

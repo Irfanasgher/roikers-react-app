@@ -1,0 +1,136 @@
+div#works {
+	margin-top: 150px;
+	.estimated {
+		width: 50%;
+		h5 {
+			color: white;
+			background-color: #3bc5e0;
+			// border: 1px solid #3bc5e0;
+			text-align: center;
+			padding: 13px;
+			width: 50px;
+			border-radius: 50px;
+			font-weight: bolder;
+		}
+		h2 {
+			color: #222e34;
+			margin-top: -60px;
+			margin-left: 70px;
+			// width: 400px;
+			text-align: left;
+			font-weight: bold;
+			font-size: 20px;
+		}
+		p {
+			width: 80%;
+			text-align: left;
+			margin-left: 70px;
+		}
+		img {
+			object-fit: cover;
+		}
+		.img2 {
+			margin-right: 136px !important;
+			width: 274px !important;
+		}
+		.img4 {
+			margin-right: 155px !important;
+			width: 210px !important;
+		}
+		.img6 {
+			margin-right: 200px !important;
+			width: 170px !important;
+		}
+	}
+	.slick-dots li button:before {
+		font-size: 15px;
+		line-height: 20px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 20px;
+		height: 20px;
+		content: '•';
+		text-align: center;
+		opacity: 1;
+		color: #dbedf0;
+	}
+	.slick-dots li.slick-active button:before {
+		// opacity: .75;
+		color: #3bc5e0;
+	}
+}
+@media (max-width: 768px) {
+	div#works {
+		margin-bottom: 100px !important;
+		.main-heading {
+			font-size: 30px !important;
+			margin-bottom: 20px !important;
+
+			&::before {
+				content: "";
+				margin-bottom: 20px;
+				margin-left: 42%;
+				width: 35px;
+			}
+		}
+		.estimated, .estimated1 {
+			display: none;
+		}
+		h5 {
+			color: white;
+			background-color: #3bc5e0;
+			// border: 1px solid #3bc5e0;
+			text-align: center;
+			padding: 13px;
+			width: 50px;
+			border-radius: 50px;
+			font-weight: bolder;
+			margin-left: 40%;
+			margin-bottom: 20px;
+		}
+		h2 {
+			color: #222e34;
+
+			// width: 400px;
+			text-align: center;
+			font-weight: bold;
+			font-size: 24px;
+		}
+		p {
+			text-align: center;
+		}
+
+		.slick-slide img {
+			display: inline !important;
+		}
+		.slick-next{
+			margin-right: auto !important;
+			width: 0px !important;
+		}
+		.slick-next:before{
+			font-size: 0 !important;
+			visibility: hidden;
+		}
+		.image {
+			object-fit: cover;
+			height: 200px;
+		}
+		.img2 {
+			// margin-right: 136px !important;
+			width: 274px !important;
+		}
+		.img4 {
+			// margin-right: 155px !important;
+			width: 210px !important;
+		}
+		.img6 {
+			// margin-right: 200px !important;
+			width: 170px !important;
+		}
+	}
+	.row {
+		margin-right: auto;
+		margin-left: auto;
+	}
+}

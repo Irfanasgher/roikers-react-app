@@ -1,0 +1,193 @@
+div#card {
+	.MuiCardHeader-title {
+		color: white;
+		text-align: left;
+		font-size: 14px;
+		font-weight: bold;
+	}
+	.MuiCardHeader-subheader {
+		color: white;
+		text-align: left;
+		font-size: 9px;
+	}
+	.makeStyles-card-10 {
+		position: relative;
+		border-radius: 15px;
+		box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2) !important;
+		transition: all .5s ease-in-out;
+		&:hover {
+			box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4) !important;
+		}
+
+		.MuiCardHeader-root {
+			background-color: rgba(0, 0, 0, 0.4);
+			z-index: 11 !important;
+			position: absolute;
+			left: 0;
+			top: 0;
+			right: 0;
+		}
+		h5 {
+			text-align: left;
+			color: #222e34 !important;
+			// font-size: 16px;
+		}
+		.para {
+			text-align: left;
+			font-family: roboto;
+			color: #222e34 !important;
+			font-weight: normal;
+			font-size: 12px;
+		}
+		.PrivateValueLabel-circle-114 {
+			width: 70px;
+			height: 24px;
+			display: flex;
+			transform: none;
+			color: black !important;
+			align-items: center;
+			border-radius: 50px;
+			justify-content: center;
+			background-color: white !important;
+			border: 2px solid #54e4ce;
+			margin-top: 10px;
+			margin-left: -30px;
+			&:after {
+				/* box-sizing: border-box; */
+				position: absolute;
+				content: "";
+				height: 10px;
+				width: 10px;
+				background: #54e4ce;
+				transform: rotate(45deg);
+				top: 27px;
+				z-index: -1;
+			}
+		}
+		.PrivateValueLabel-label-115 {
+			color: black !important;
+			transform: none;
+		}
+		.MuiSlider-thumb {
+			height: 0;
+			width: 0;
+			box-shadow: none;
+		}
+		.MuiSlider-track {
+			height: 10px;
+			display: block;
+			border-radius: 5px !important;
+			position: absolute;
+			border-radius: 1px;
+			background-color: #54e4ce;
+			margin-top: -1px;
+		}
+		.MuiSlider-rail {
+			width: 100%;
+			height: 8px;
+			display: block;
+			opacity: 1;
+			position: absolute;
+			border-radius: 1px;
+			background-color: #e9ecef;
+			border-radius: 5px;
+		}
+		.MuiSlider-thumb::after {
+			top: -15px;
+			left: -15px;
+			right: -15px;
+			bottom: -15px;
+			content: "";
+			position: absolute;
+			border-radius: 50%;
+			background-color: #54e4ce;
+			display: none;
+		}
+		.progressBar {
+			height: 8px;
+			overflow: visible;
+			color: #222e34 !important;
+		}
+		.progress-bar {
+			height: 10px;
+			background-color: #54e4ce;
+			color: #222e34 !important;
+			border-radius: 5px;
+			font-size: 10px;
+			margin-top: -1px;
+		}
+		.investors {
+			color: gray;
+			span {
+				color: #222e34 !important;
+				font-weight: bolder;
+				margin-left: 5px;
+			}
+		}
+		.hrStyling {
+			width: 100%;
+			height: 2px !important;
+			font-size: 23px;
+			margin-block-start: 0;
+			margin-block-end: 0;
+			margin-inline-start: 0;
+			margin-inline-end: 0;
+		}
+		.estimated {
+			color: #3bc5e0;
+
+			font-size: 12px;
+			span {
+				font-weight: bolder;
+			}
+		}
+		.btn-style {
+			width: 100%;
+			background-color: #3bc5e0;
+			border: 1px solid #3bc5e0;
+
+			outline: none;
+			border-radius: 50px;
+			&:hover {
+				color: #3bc5e0;
+				background-color: #ffffff;
+				border: 1px solid #3bc5e0;
+			}
+		}
+	}
+	.view {
+		background-color: #fff;
+		padding: 10px 25px;
+		border: 1px solid #3bc5e0;
+		border-radius: 40px;
+		outline: none;
+		color: #3bc5e0;
+		font-weight: 500;
+		transition: all .4s ease-in-out;
+		&:hover {
+			color: white;
+			background-color: #3bc5e0;
+		}
+	}
+}
+@media (max-width: 768px) {
+	div#card {
+		.main-heading {
+			font-size: 20px;
+			&:before {
+				display: flex;
+				content: "";
+				background-color: #3bc5e0;
+				margin-left: 45.5%;
+				margin-bottom: 10px;
+				height: 4px;
+				width: 30px;
+			}
+		}
+		.row {
+			.col-12 {
+				margin-bottom: 20px;
+			}
+		}
+	}
+}

@@ -1,0 +1,34 @@
+#main-heading {
+	h1 {
+		color: #222e34 !important;
+		span {
+			font-weight: lighter;
+		}
+		&:before {
+			display: flex;
+			content: "";
+			background-color: #3bc5e0;
+			margin-left: 47.5%;
+			margin-bottom: 10px;
+			height: 4px;
+			width: 40px;
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	#main-heading {
+		h1 {
+			font-size: 20px;
+			&:before {
+				display: flex;
+				content: "";
+				background-color: #3bc5e0;
+				margin-left: 45.5%;
+				margin-bottom: 10px;
+				height: 4px;
+				width: 30px;
+			}
+		}
+	}
+}

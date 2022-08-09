@@ -1,0 +1,48 @@
+div#what-is-roikers{
+   margin-top: 100px;
+   .row{
+     .circle{
+       width: 200px;
+       height: 200px;
+       border-radius: 50%;
+       border: 1px solid gray;
+       img{
+         object-fit: cover;
+         max-width: 100%;
+         margin-top: 30px;
+       }
+     }
+     .col-md-8{
+       margin-top: 30px;
+     }
+     p{
+       text-align: left;
+       span{
+         font-weight: bold;
+       }
+     }
+   }
+ }
+
+@media (max-width: 815px) {
+  div#what-is-roikers{
+    margin-top: 100px;
+    .row{
+      .circle{
+        margin-left: 25%;
+      }
+      .col-md-8{
+        margin-top: 60px;
+      }
+    }
+  }
+}
+@media (max-width: 414px) {
+  div#what-is-roikers{
+    .row{
+      .circle{
+        margin-left: 17%;
+      }
+    }
+  }
+}

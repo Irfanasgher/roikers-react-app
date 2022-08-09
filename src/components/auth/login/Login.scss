@@ -1,0 +1,136 @@
+div#login {
+	height: 100vh;
+	position: relative;
+	.login {
+		background-color: #f5ffff;
+		text-align: left !important;
+		width: fit-content;
+
+		img.logo {
+			position: absolute;
+			z-index: 1;
+			width: 220px;
+		}
+		img.login-image {
+			width: 100%;
+			height: 500px;
+			position: absolute;
+			left: 0;
+			top: 40px;
+			object-fit: cover;
+		}
+		div.gratuito {
+			position: absolute;
+			width: 88%;
+			box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+			background-color: white;
+			left: 7%;
+			border-radius: 8px;
+			padding: 20px 30px;
+			top: 60%;
+			z-index: 11;
+			color: #222e34 !important;
+			h1 {
+				font-size: 22px;
+			}
+			p {
+				font-size: 14px;
+			}
+		}
+	}
+	.right-side {
+		h1 {
+			color: #222e34 !important;
+			font-size: 30px;
+			span {
+				font-weight: lighter;
+			}
+		}
+		h3 {
+			font-size: 16px;
+			font-weight: lighter;
+		}
+		h5 {
+			font-size: 18px;
+			a{
+				color: #3bc5e0;
+			}
+		}
+		.input-data {
+			text-align: left;
+			p {
+				//font-weight: lighter;
+				margin: 0;
+			}
+			h5 {
+				color: #222e34 !important;
+				margin: 0;
+			}
+			input {
+				border: 0;
+				padding-bottom: 10px;
+				border-bottom: 1px solid gray;
+				width: 100%;
+				&:focus {
+					outline: none;
+				}
+			}
+			input::placeholder{
+				color: gray !important;
+				font-weight: lighter;
+				//font-size: 21px;
+			}
+		}
+		.olvidaste {
+			text-align: left;
+			a{
+				color: #3bc5e0;
+			}
+
+		}
+	}
+}
+@media (max-width: 768px) {
+	.row {
+		margin-right: auto;
+		margin-left: auto;
+	}
+	div#login {
+		margin-bottom: 50px;
+		height: auto !important;
+		width: 100vw;
+		box-sizing: border-box;
+		.login {
+			height: auto !important;
+			img.logo {
+				position: absolute;
+				z-index: 1;
+				width: 180px;
+				left: 25%;
+				top: 5px;
+			}
+			img.login-image {
+				width: 100%;
+				height: 430px;
+				position: relative;
+				left: 0;
+				top: 30px;
+				object-fit: cover;
+			}
+		}
+		.right-side {
+			h1 {
+				font-size: 25px;
+			}
+			h3 {
+				font-size: 12px;
+			}
+			h5 {
+				font-size: 12px;
+			}
+			input::placeholder{
+				font-size: 14px !important;
+			}
+		}
+	}
+}

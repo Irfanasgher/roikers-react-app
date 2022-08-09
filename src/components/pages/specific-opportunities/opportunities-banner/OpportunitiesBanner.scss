@@ -1,0 +1,31 @@
+div#main{
+  position: relative;
+  background-image: url("/GettyImages-1088862160.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 88vh;
+  .mantadios{
+    position: absolute;
+    background-color: rgba(0,0,0,0.4);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 25px;
+    text-align: left;
+    img{
+      text-align: left !important;
+      border: 3px solid white;
+      border-radius: 30px;
+    }
+    .heading{
+      margin-left: 30px;
+      color: white;
+      h4{
+        margin-bottom: 0px;
+      }
+      p{
+        margin-bottom: 0px;
+      }
+    }
+  }
+}

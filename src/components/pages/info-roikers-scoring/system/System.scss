@@ -1,0 +1,15 @@
+div#system{
+  padding-top: 100px;
+  text-align: left;
+  p{
+    span{
+      font-weight: bold;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .row{
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

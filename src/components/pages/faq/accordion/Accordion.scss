@@ -1,0 +1,88 @@
+div#accordion{
+font-family: Roboto;
+
+.accordion-latestblog-section{
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+
+.accordion-section .section-header {
+  img{
+    display: inline;
+    margin-bottom: 20px;
+  }
+  h3{
+    margin-left: 20px;
+    font-size: 25px;
+  }
+}
+.accordion-section .panel-group .panel{
+  border-radius: 0;
+  margin-bottom: 17px;
+  padding: 6px 30px 6px 32px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+.accordion-section  .panel-default > .panel-heading{
+  background-color: transparent;
+  padding: 0;
+}
+.accordion-section .panel-title {
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.15px;
+  text-align: left;
+  position: relative;
+  color: #282c34 !important;
+}
+.accordion-section .panel-title  a{
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  line-height: 53px;
+  position: relative;
+  color: #282c34 !important;
+  font-weight: bold;
+}
+.accordion-section .panel-title a::before {
+  position: absolute;
+  content: "\f068";
+  font-family: "FontAwesome";
+  right: 0;
+  top: 0;
+  //height: 30px;
+  //width: 30px;
+  //border-radius: 15px;
+  //border: 1px solid #3bc5e0;
+  //text-align: center;
+  //justify-content: center;
+  font-size: 7px;
+  font-weight: 300;
+  color: #3bc5e0;
+}
+.accordion-section .panel-title a.collapsed::before {
+  position: absolute;
+  content: "\f067";
+  font-family: "FontAwesome";
+  right: 0;
+  top: 0;
+  font-size: 8px;
+  font-weight: 100;
+  color: #3bc5e0;
+}
+.accordion-section .panel-body p{
+  font-size: 15px;
+  color: #777;
+  line-height: 26px;
+  text-align: left;
+  font-weight: 400;
+}
+.panel-default > .panel-heading + .panel-collapse > .panel-body{
+  padding: 19px 0;
+}
+}
+.row {
+  margin-right: auto;
+  margin-left: auto;
+}
